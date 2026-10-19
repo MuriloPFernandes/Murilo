@@ -15,6 +15,7 @@ def define_posicoes(linha,coluna,orientacao,tamanho):
     return lista1
 
 
+# Exercício 2
 def preenche_frota(frota,nome,linha,coluna,orientacao,tamanho):
     posicoes = define_posicoes(linha,coluna,orientacao,tamanho)
 
@@ -23,3 +24,13 @@ def preenche_frota(frota,nome,linha,coluna,orientacao,tamanho):
 
     frota[nome].append(posicoes)
     return frota
+
+
+# Exercício 3
+def faz_jogada(tabuleiro,linha,coluna):
+    if tabuleiro[linha][coluna] == 1:
+        tabuleiro[linha][coluna] = 'X'
+    elif tabuleiro[linha][coluna] == 0:
+        tabuleiro[linha][coluna] = '-'
+
+    return tabuleiro
