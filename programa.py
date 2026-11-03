@@ -15,7 +15,7 @@ for i in range(len(nomes)):
     posicionados = 0
 
     while posicionados < quantidade:
-        print(f'Insira as informações referentes ao navio {nome}'f'que possui tamanho {tamanho}')
+        print(f'Insira as informações referentes ao navio {nome} que possui tamanho {tamanho}')
 
         linha = int(input('Linha:'))
         coluna = int(input('Coluna:'))
